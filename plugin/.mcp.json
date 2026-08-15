@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "chalktalk": {
+      "type": "http",
+      "url": "https://frameflow1.vercel.app/api/mcp"
+    }
+  }
+}
