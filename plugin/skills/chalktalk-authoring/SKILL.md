@@ -8,7 +8,7 @@ metadata:
 
 ## Load the guidance first
 
-1. Call `listSkills` for the catalogue — each entry carries a `whenToUse` line.
+1. Call `listSkills` for the catalogue - each entry carries a `whenToUse` line.
 2. Call `loadSkill` for the ones that apply. At most three per turn, and never
    reload one already loaded in this conversation.
 3. Only then author or edit the project.
@@ -18,7 +18,7 @@ that overflows the frame, narration that fights the visuals.
 
 ## Authoring loop
 
-`createProject` or `updateProject` replace the whole YAML document — there are
+`createProject` or `updateProject` replace the whole YAML document - there are
 no partial-edit tools on this surface, so read before you write:
 
 1. `getProjectMetadata` for the step outline, or `fetchGvid` with

@@ -1,6 +1,6 @@
 # ChalkTalk
 
-Turn a conversation into a narrated tutorial video — without leaving your editor.
+Turn a conversation into a narrated tutorial video - without leaving your editor.
 
 ChalkTalk writes the video as a structured document: scenes for code, diagrams,
 charts, CLI sessions, and maths, each with its own narration. Ask for a
@@ -12,7 +12,7 @@ ChalkTalk.
 
 | Client | How |
 |---|---|
-| Claude Code | Plugin — two commands below |
+| Claude Code | Plugin - two commands below |
 | Codex | Two CLI commands below |
 | Cursor, VS Code | One click from [the install page](https://frameflow1.vercel.app/mcp) |
 | Claude Desktop, claude.ai, mobile | Settings → Connectors → Add custom connector → server URL |
@@ -36,7 +36,7 @@ codex mcp add chalktalk --url https://frameflow1.vercel.app/api/mcp
 codex mcp login chalktalk
 ```
 
-**Windsurf, Antigravity** — merge into your MCP config. Windsurf keeps it at
+**Windsurf, Antigravity** - merge into your MCP config. Windsurf keeps it at
 `~/.codeium/windsurf/mcp_config.json`; Antigravity exposes it under
 MCP Servers → Manage MCP Servers → View raw config.
 
@@ -84,5 +84,5 @@ video before spending render time on it.
 - [Connect your AI tools](https://frameflow1.vercel.app/mcp)
 - [Issues](https://github.com/chalktalkhq/plugins/issues)
 
-<sub>This repo is generated from the ChalkTalk app repo — open an issue rather
+<sub>This repo is generated from the ChalkTalk app repo - open an issue rather
 than a pull request against these files.</sub>
