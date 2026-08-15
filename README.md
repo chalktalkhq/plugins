@@ -10,6 +10,16 @@ ChalkTalk.
 
 ## Install
 
+| Client | How |
+|---|---|
+| Claude Code | Plugin — two commands below |
+| Codex | Two CLI commands below |
+| Cursor, VS Code | One click from [the install page](https://frameflow1.vercel.app/mcp) |
+| Claude Desktop, claude.ai, mobile | Settings → Connectors → Add custom connector → server URL |
+| ChatGPT | Settings → Security and login → Developer mode, then Plugins → **+** → Public endpoint → server URL |
+| Windsurf, Antigravity | Config snippet below |
+| Anything else | [The install page](https://frameflow1.vercel.app/mcp) has a prompt you can paste into your own agent |
+
 **Claude Code**
 
 ```
@@ -19,18 +29,32 @@ ChalkTalk.
 
 Then run `/mcp` to sign in.
 
-**Claude Desktop, claude.ai, mobile** — Settings → Connectors → Add custom
-connector, and paste:
+**Codex**
+
+```
+codex mcp add chalktalk --url https://frameflow1.vercel.app/api/mcp
+codex mcp login chalktalk
+```
+
+**Windsurf, Antigravity** — merge into your MCP config. Windsurf keeps it at
+`~/.codeium/windsurf/mcp_config.json`; Antigravity exposes it under
+MCP Servers → Manage MCP Servers → View raw config.
+
+```json
+{
+  "mcpServers": {
+    "chalktalk": {
+      "serverUrl": "https://frameflow1.vercel.app/api/mcp"
+    }
+  }
+}
+```
+
+**Server URL**, for anything that just asks for one:
 
 ```
 https://frameflow1.vercel.app/api/mcp
 ```
-
-**ChatGPT** — Settings → Security and login → turn on Developer mode, then
-Plugins → **+** → Public endpoint, and paste the same URL.
-
-**Cursor, VS Code, Codex, Windsurf, and anything else** — one-click installs and
-copy-paste config for every client: [frameflow1.vercel.app/mcp](https://frameflow1.vercel.app/mcp)
 
 No API key. You sign in once in the browser on the first tool call.
 
