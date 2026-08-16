@@ -1,7 +1,7 @@
 {
   "name": "chalktalk",
   "displayName": "ChalkTalk",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Create tutorial videos by chatting with AI. Authors and edits ChalkTalk video projects over MCP.",
   "author": {
     "name": "Udit Kumar",

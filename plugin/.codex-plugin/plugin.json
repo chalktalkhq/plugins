@@ -1,6 +1,6 @@
 {
   "name": "chalktalk",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Create tutorial videos by chatting with AI. Authors and edits ChalkTalk video projects over MCP.",
   "skills": [
     "./skills/chalktalk-authoring"
@@ -15,6 +15,9 @@
     "displayName": "ChalkTalk",
     "shortDescription": "Create tutorial videos by chatting with AI.",
     "longDescription": "ChalkTalk turns a conversation into a narrated tutorial video. Describe a lesson, paste a pull request, or start from a template; ChalkTalk writes the project YAML, validates it, renders preview stills you can check, and generates narration. Projects open in the ChalkTalk editor for review and export.",
-    "category": "productivity"
+    "category": "productivity",
+    "brandColor": "#101010",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png"
   }
 }
