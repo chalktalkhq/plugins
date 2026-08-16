@@ -2,7 +2,7 @@
   "mcpServers": {
     "api": {
       "type": "http",
-      "url": "https://frameflow1.vercel.app/api/mcp"
+      "url": "https://thechalktalk.vercel.app/api/mcp"
     }
   }
 }

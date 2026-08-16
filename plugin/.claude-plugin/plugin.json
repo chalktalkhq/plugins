@@ -1,14 +1,14 @@
 {
   "name": "chalktalk",
   "displayName": "ChalkTalk",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Create tutorial videos by chatting with AI. Authors and edits ChalkTalk video projects over MCP.",
   "author": {
     "name": "Udit Kumar",
     "email": "uditkumarussa@gmail.com",
     "url": "https://github.com/chalktalkhq"
   },
-  "homepage": "https://frameflow1.vercel.app",
+  "homepage": "https://thechalktalk.vercel.app",
   "repository": "https://github.com/chalktalkhq/plugins",
   "keywords": [
     "video",

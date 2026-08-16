@@ -1,6 +1,6 @@
 {
   "name": "chalktalk",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Create tutorial videos by chatting with AI. Authors and edits ChalkTalk video projects over MCP.",
   "skills": [
     "./skills/chalktalk-authoring"
@@ -8,7 +8,7 @@
   "mcpServers": {
     "api": {
       "type": "http",
-      "url": "https://frameflow1.vercel.app/api/mcp"
+      "url": "https://thechalktalk.vercel.app/api/mcp"
     }
   },
   "interface": {

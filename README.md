@@ -14,11 +14,11 @@ ChalkTalk.
 |---|---|
 | Claude Code | Plugin - two commands below |
 | Codex | Two CLI commands below |
-| Cursor, VS Code | One click from [the install page](https://frameflow1.vercel.app/mcp) |
+| Cursor, VS Code | One click from [the install page](https://thechalktalk.vercel.app/mcp) |
 | Claude Desktop, claude.ai, mobile | Settings → Connectors → Add custom connector → server URL |
 | ChatGPT | Settings → Security and login → Developer mode, then Plugins → **+** → Public endpoint → server URL |
 | Windsurf, Antigravity | Config snippet below |
-| Anything else | [The install page](https://frameflow1.vercel.app/mcp) has a prompt you can paste into your own agent |
+| Anything else | [The install page](https://thechalktalk.vercel.app/mcp) has a prompt you can paste into your own agent |
 
 **Claude Code**
 
@@ -32,7 +32,7 @@ Then run `/mcp` to sign in.
 **Codex**
 
 ```
-codex mcp add chalktalk --url https://frameflow1.vercel.app/api/mcp
+codex mcp add chalktalk --url https://thechalktalk.vercel.app/api/mcp
 codex mcp login chalktalk
 ```
 
@@ -44,7 +44,7 @@ MCP Servers → Manage MCP Servers → View raw config.
 {
   "mcpServers": {
     "chalktalk": {
-      "serverUrl": "https://frameflow1.vercel.app/api/mcp"
+      "serverUrl": "https://thechalktalk.vercel.app/api/mcp"
     }
   }
 }
@@ -53,7 +53,7 @@ MCP Servers → Manage MCP Servers → View raw config.
 **Server URL**, for anything that just asks for one:
 
 ```
-https://frameflow1.vercel.app/api/mcp
+https://thechalktalk.vercel.app/api/mcp
 ```
 
 No API key. You sign in once in the browser on the first tool call.
@@ -80,8 +80,8 @@ video before spending render time on it.
 
 ## Links
 
-- [ChalkTalk](https://frameflow1.vercel.app)
-- [Connect your AI tools](https://frameflow1.vercel.app/mcp)
+- [ChalkTalk](https://thechalktalk.vercel.app)
+- [Connect your AI tools](https://thechalktalk.vercel.app/mcp)
 - [Issues](https://github.com/chalktalkhq/plugins/issues)
 
 <sub>This repo is generated from the ChalkTalk app repo - open an issue rather
