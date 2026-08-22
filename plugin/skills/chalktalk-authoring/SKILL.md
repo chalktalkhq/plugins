@@ -31,3 +31,30 @@ no partial-edit tools on this surface, so read before you write:
 Rendering is deliberately not exposed here. On success, give the user the
 `title` and `editorUrlAbsolute` from the response so they can review and export
 in ChalkTalk.
+
+## Global styling
+
+A whole-project look request ("warmer tone", "make it monochrome") is a
+`settings` change, sent alongside `yamlText` on `updateProject`. Settings
+replace rather than merge on this surface, so read the current ones with
+`getProjectMetadata` first and resend every field you want to keep.
+
+Values are exact, and they are wire values rather than the labels shown in the
+app: write `material-darker`, never "Material Darker", and `forest`, never
+"Forest". An unrecognized field is rejected rather than ignored.
+
+    settings:
+      theme: material-darker
+      terminalTheme: Gruvbox
+      mermaidTheme: monochrome
+      backgroundColor: "#17130F"
+      foregroundColor: "#F2EADF"
+
+`theme` (lowercase-hyphen): dark-plus, dracula-soft, dracula, github-dark, github-dark-dimmed, github-light, light-plus, material-darker, material-default, material-lighter, material-ocean, material-palenight, min-dark, min-light, monokai, nord, one-dark-pro, poimandres, slack-dark, slack-ochin, solarized-dark, solarized-light.
+
+`terminalTheme` (PascalCase): Ayu, Catppuccin, Dracula, Gruvbox, Monokai, Nord, OceanicNext, Solarized, SolarizedLight, Tomorrow.
+
+`mermaidTheme` (lowercase): default, ocean, forest, monochrome, vibrant, pastel.
+
+Other fields: agent, backgroundColor, backgroundImage, foregroundColor, intro, subtitle, useWatermark, watermarkText. There is no `palette`, `accent`, or semantic
+colour field; do not invent one.
