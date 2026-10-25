@@ -3,6 +3,6 @@
   "displayName": "ChalkTalk",
   "mcpServer": {
     "type": "http",
-    "url": "https://thechalktalk.vercel.app/api/mcp"
+    "url": "https://chalktalk.dev/api/mcp"
   }
 }

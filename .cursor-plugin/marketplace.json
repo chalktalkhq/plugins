@@ -1,0 +1,19 @@
+{
+  "name": "chalktalk-plugins",
+  "owner": {
+    "name": "Udit Kumar",
+    "email": "support@chalktalk.dev",
+    "url": "https://github.com/chalktalkhq"
+  },
+  "metadata": {
+    "description": "Official ChalkTalk plugin: turn a conversation, a PR, or a lesson plan into a rendered tutorial video.",
+    "version": "0.7.0"
+  },
+  "plugins": [
+    {
+      "name": "chalktalk",
+      "source": "./plugin",
+      "description": "Create tutorial videos by chatting with AI."
+    }
+  ]
+}

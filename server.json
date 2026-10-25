@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.chalktalkhq/chalktalk",
+  "title": "ChalkTalk",
+  "description": "Create tutorial videos by chatting with AI.",
+  "version": "0.7.0",
+  "websiteUrl": "https://chalktalk.dev",
+  "repository": {
+    "url": "https://github.com/chalktalkhq/plugins",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://chalktalk.dev/api/mcp"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "api": {
+      "url": "https://chalktalk.dev/api/mcp"
+    }
+  }
+}

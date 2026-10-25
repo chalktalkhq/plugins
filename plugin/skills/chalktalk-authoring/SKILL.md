@@ -56,5 +56,5 @@ app: write `material-darker`, never "Material Darker", and `forest`, never
 
 `mermaidTheme` (lowercase): default, ocean, forest, monochrome, vibrant, pastel.
 
-Other fields: agent, backgroundColor, backgroundImage, foregroundColor, intro, subtitle, useWatermark, watermarkText. There is no `palette`, `accent`, or semantic
+Other fields: agent, backgroundColor, backgroundImage, diagramLook, foregroundColor, intro, look, motion, sound, subtitle, useWatermark, watermarkText. There is no `palette`, `accent`, or semantic
 colour field; do not invent one.
